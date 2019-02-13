@@ -8,21 +8,25 @@ body{
 	height: 100%;
 	width: 100%;
 	margin: auto;
+	background: #d3bc3ba4;
 }
 
 header {
-	margin: auto;
-	padding: 30px;
-	font-size: 18px;
-	font-weight: bolder;
+	margin-top: 10px;
 	border: 2px hidden;
+	background: #d3bc3ba4;
 }
-header img{
+.logo{
 	display: inline;
+	margin-left: 40px;
+	vertical-align: middle;
+	border-radius: 50px;
 }
-header h1{
+.page-header{
 	display: inline;
-	padding: 50px;
+	margin-left: 80px;
+	font-size: 32px;
+	font-weight: bold;
 }
 
 .top_nav {
